@@ -1,0 +1,16 @@
+#nav ul:first-child {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav li {
+  width: 100%;
+}
+
+#nav .dropdown:hover {
+  display: none !important;
+}
+
+#nav .dropdown:hover {
+  display: none !important;
+}

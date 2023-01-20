@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input placeholder="Grid Size" id="gridSize" type="number" /><br />
+      <input placeholder="players" id="players" type="number" />
+      <button onclick="start()" type="button">Start Button</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <td style="padding: 20px">Player Number</td>
+          <td style="padding: 20px">Dice Roll</td>
+          <td style="padding: 20px">Dice Roll History</td>
+          <td style="padding: 20px">Position History</td>
+          <td style="padding: 20px">Win Status</td>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <ul id="myList"></ul>
+  </body>
+  <script src="accendumtask2.js"></script>
+</html>
